@@ -1,0 +1,146 @@
+  [
+    {
+      "id": "1",
+      "nombre": "Esperando Godot",
+      "imagen": "/img/fotos-descripción-obras-teatro/Esperando-Godot/esperando-a-godot.jpg",
+      "imagen2": "/img/fotos-descripción-obras-teatro/Esperando-Godot/esperando-a-godot_FN.jpg",
+      "imagen3": "/img/fotos-descripción-obras-teatro/Esperando-Godot/una-escena-de-esperando-a-godot.jpg",
+      "fechas": [
+        "Fecha 1: 5 de enero de 2024",
+        "Fecha 2: 10 de enero de 2024",
+        "Fecha 3: 15 de enero de 2024"  
+    ],
+    "informacion": "Este musical aclamado sigue la travesía de Simba, un león joven destinado a ser rey. Con emotivas lecciones sobre responsabilidad y coraje, la obra presenta espectaculares números musicales y una colorida representación visual del ciclo de la vida en la Sabana africana.",
+    "reparto": "Reparto: Raize, Heather Headley, Patrick Page, Ernie Sabella",
+      "boton": {
+        "texto": "Comprar e información",
+        "enlace": "/html/FuntionName.html"
+      }
+    },
+    {
+      "id": "2",
+      "nombre": "Fantasma de la Ópera",
+      "imagen": "/img/fotos-descripción-obras-teatro/Fantasma-opera/fantasma-opera.jpg",
+      "imagen2": "/img/fotos-descripción-obras-teatro/Fantasma-opera/fantasma-opera_FN.jpg",
+      "imagen3": "/img/fotos-descripción-obras-teatro/Esperando-Godot/una-escena-de-esperando-a-godot.jpg",
+      "fechas": [
+        "Fecha 1: 8 de enero de 2024",
+        "Fecha 2: 12 de enero de 2024",
+        "Fecha 3: 23 de enero de 2024"
+    ],
+    "informacion": "Este musical aclamado sigue la travesía de Simba, un león joven destinado a ser rey. Con emotivas lecciones sobre responsabilidad y coraje, la obra presenta espectaculares números musicales y una colorida representación visual del ciclo de la vida en la Sabana africana.",
+    "reparto": "Reparto: Raize, Heather Headley, Patrick Page, Ernie Sabella",
+      "boton": {
+        "texto": "Comprar e información",
+        "enlace": "FuntionName.html"
+      }
+    },
+    {
+      "id": "3",
+      "nombre": "Galder",
+      "imagen": "/img/fotos-descripción-obras-teatro/Galder/Galder.jpeg",
+      "imagen2": "/img/fotos-descripción-obras-teatro/Fantasma-opera/fantasma-opera_FN.jpg",
+      "imagen3": "/img/fotos-descripción-obras-teatro/Esperando-Godot/una-escena-de-esperando-a-godot.jpg",
+      "fechas": [
+        "Fecha 1: 8 de enero de 2024",
+        "Fecha 2: 12 de enero de 2024",
+        "Fecha 3: 23 de enero de 2024"
+    ],
+    "informacion": "Este musical aclamado sigue la travesía de Simba, un león joven destinado a ser rey. Con emotivas lecciones sobre responsabilidad y coraje, la obra presenta espectaculares números musicales y una colorida representación visual del ciclo de la vida en la Sabana africana.",
+    "reparto": "Reparto: Raize, Heather Headley, Patrick Page, Ernie Sabella",
+      "boton": {
+        "texto": "Comprar e información",
+        "enlace": "FuntionName.html"
+      }
+    },
+    {
+      "id": "4",
+      "nombre": "Hamlet",
+      "imagen": "/img/fotos-descripción-obras-teatro/Hamlet/hamlet.jpg",
+      "imagen2": "/img/fotos-descripción-obras-teatro/Fantasma-opera/fantasma-opera_FN.jpg",
+      "imagen3": "/img/fotos-descripción-obras-teatro/Esperando-Godot/una-escena-de-esperando-a-godot.jpg",
+      "fechas": [
+        "Fecha 1: 8 de enero de 2024",
+        "Fecha 2: 12 de enero de 2024",
+        "Fecha 3: 23 de enero de 2024"
+    ],
+    "informacion": "Este musical aclamado sigue la travesía de Simba, un león joven destinado a ser rey. Con emotivas lecciones sobre responsabilidad y coraje, la obra presenta espectaculares números musicales y una colorida representación visual del ciclo de la vida en la Sabana africana.",
+    "reparto": "Reparto: Raize, Heather Headley, Patrick Page, Ernie Sabella",
+      "boton": {
+        "texto": "Comprar e información",
+        "enlace": "FuntionName.html"
+      }
+    },
+    {
+      "id": "5",
+      "nombre": "El Rey León",
+      "imagen": "/img/fotos-descripción-obras-teatro/Rey-Leon/reyLeon.webp",
+      "imagen2": "/img/fotos-descripción-obras-teatro/Fantasma-opera/fantasma-opera_FN.jpg",
+      "imagen3": "/img/fotos-descripción-obras-teatro/Esperando-Godot/una-escena-de-esperando-a-godot.jpg",
+      "fechas": [
+        "Fecha 1: 8 de enero de 2024",
+        "Fecha 2: 12 de enero de 2024",
+        "Fecha 3: 23 de enero de 2024"
+    ],
+    "informacion": "Este musical aclamado sigue la travesía de Simba, un león joven destinado a ser rey. Con emotivas lecciones sobre responsabilidad y coraje, la obra presenta espectaculares números musicales y una colorida representación visual del ciclo de la vida en la Sabana africana.",
+    "reparto": "Reparto: Raize, Heather Headley, Patrick Page, Ernie Sabella",
+      "boton": {
+        "texto": "Comprar e información",
+        "enlace": "FuntionName.html"
+      }
+    },
+    {
+      "id": "6",
+      "nombre": "Romeo y Julieta",
+      "imagen": "/img/fotos-descripción-obras-teatro/romo-julieta/ROMEO-Y-JULIETA.jpeg",
+      "imagen2": "/img/fotos-descripción-obras-teatro/Fantasma-opera/fantasma-opera_FN.jpg",
+      "imagen3": "/img/fotos-descripción-obras-teatro/Esperando-Godot/una-escena-de-esperando-a-godot.jpg",
+      "fechas": [
+        "Fecha 1: 8 de enero de 2024",
+        "Fecha 2: 12 de enero de 2024",
+        "Fecha 3: 23 de enero de 2024"
+    ],
+    "informacion": "Este musical aclamado sigue la travesía de Simba, un león joven destinado a ser rey. Con emotivas lecciones sobre responsabilidad y coraje, la obra presenta espectaculares números musicales y una colorida representación visual del ciclo de la vida en la Sabana africana.",
+    "reparto": "Reparto: Raize, Heather Headley, Patrick Page, Ernie Sabella",
+      "boton": {
+        "texto": "Comprar e información",
+        "enlace": "FuntionName.html"
+      }
+    },
+    {
+      "id": "7",
+      "nombre": "Bodas de Sangre",
+      "imagen": "/img/fotos-descripción-obras-teatro/BodasDeSangre/BodasDeSangre.jpg",
+      "imagen2": "/img/fotos-descripción-obras-teatro/Fantasma-opera/fantasma-opera_FN.jpg",
+      "imagen3": "/img/fotos-descripción-obras-teatro/Esperando-Godot/una-escena-de-esperando-a-godot.jpg",
+      "fechas": [
+        "Fecha 1: 8 de enero de 2024",
+        "Fecha 2: 12 de enero de 2024",
+        "Fecha 3: 23 de enero de 2024"
+    ],
+    "informacion": "Este musical aclamado sigue la travesía de Simba, un león joven destinado a ser rey. Con emotivas lecciones sobre responsabilidad y coraje, la obra presenta espectaculares números musicales y una colorida representación visual del ciclo de la vida en la Sabana africana.",
+    "reparto": "Reparto: Raize, Heather Headley, Patrick Page, Ernie Sabella",
+      "boton": {
+        "texto": "Comprar e información",
+        "enlace": "FuntionName.html"
+      }
+    },
+    {
+      "id": "8",
+      "nombre": "B-Vocal",
+      "imagen": "/img/fotos-descripción-obras-teatro/B-vocal/b-vocal_LG.jpg",
+      "imagen2": "/img/fotos-descripción-obras-teatro/Fantasma-opera/fantasma-opera_FN.jpg",
+      "imagen3": "/img/fotos-descripción-obras-teatro/Esperando-Godot/una-escena-de-esperando-a-godot.jpg",
+      "fechas": [
+        "Fecha 1: 8 de enero de 2024",
+        "Fecha 2: 12 de enero de 2024",
+        "Fecha 3: 23 de enero de 2024"
+    ],
+    "informacion": "Este musical aclamado sigue la travesía de Simba, un león joven destinado a ser rey. Con emotivas lecciones sobre responsabilidad y coraje, la obra presenta espectaculares números musicales y una colorida representación visual del ciclo de la vida en la Sabana africana.",
+    "reparto": "Reparto: Raize, Heather Headley, Patrick Page, Ernie Sabella",
+      "boton": {
+        "texto": "Comprar e información",
+        "enlace": "/FuntionName.html"
+      }
+    }
+  ]
