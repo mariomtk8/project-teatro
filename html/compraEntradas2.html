@@ -36,6 +36,18 @@
         </div>
     </section>
 
+    <h1>Selecciona el número de butacas:</h1>
+
+  <select id="butacasSelect">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <!-- Agrega más opciones según sea necesario -->
+  </select>
+
+  <button onclick="calcularImporte()">Calcular Importe</button>
+
+  <div id="resumen"></div>
+
     <section>
         <div class="frame-funtion">
             <div class="frame-funtion_poster">
@@ -66,7 +78,9 @@
             <img src="/img/circle.webp" alt="">
             <img src="/img/circle.webp" alt="">
         </div>
+        <div id="informacionSeleccionada"></div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

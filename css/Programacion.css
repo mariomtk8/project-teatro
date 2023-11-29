@@ -76,6 +76,10 @@ body, h1, h2, p, ul, li, a {
     padding: 20px;
     margin: 20px;
   }
+  .poster-container img{
+    max-width: 250px;
+    max-height: 400px;
+  }
   
   .show-poster {
     text-align: center;

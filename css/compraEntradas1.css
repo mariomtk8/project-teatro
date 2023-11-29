@@ -84,6 +84,28 @@ body, h1, h2, p, ul, li, a {
         color: white;
       }
 
+      #container {
+        text-align: center;
+      }
+      
+      h2 {
+        color: #333;
+      }
+      
+      .container-frame {
+        margin-top: 20px;
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+      }
+      button {
+        margin-left: 10px; /* Ajusta el espacio entre el texto y el botón */
+      }
+
 
       /* Estilos del pie de página */
 .footer {
