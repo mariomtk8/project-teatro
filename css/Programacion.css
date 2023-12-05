@@ -8,6 +8,7 @@ a {
     margin: 0;
     padding: 0;
     text-decoration: none;
+    color: black;
 }
 
 body {
@@ -100,8 +101,8 @@ body {
 }
 
 .poster__img {
-    max-width: 90%;
-    height: auto;
+    height: 370px;
+    width: 250px;
 }
 
 .show-poster__details {
@@ -115,7 +116,7 @@ body {
 .show-poster__button {
     padding: 10px 20px;
     background-color: #fff;
-    color: #1E3367;
+    color: black;
     border: none;
     border-radius: 4px;
     cursor: pointer;

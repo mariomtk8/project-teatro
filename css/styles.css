@@ -135,8 +135,8 @@ body {
 }
 
 .poster__img {
-    max-width: 90%;
-    height: auto;
+    height: 370px;
+    width: 250px;
 }
 
 .show-poster__details {
