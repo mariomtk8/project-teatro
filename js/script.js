@@ -123,3 +123,98 @@ document.addEventListener('DOMContentLoaded', iniciar);
 
 
 
+////------------------Compra de Entradas-----------------------------
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const seatingArea = document.getElementById("seating-area");
+  const buyButton = document.getElementById("buy-btn");
+  const selectedSeatsInfo = document.getElementById("selected-seats-info");
+  const totalCostInfo = document.getElementById("total-cost")
+  
+
+  const rows = 7;
+  const seatsPerRow = 18;
+  const seatPrice = {
+    1: 10,
+    2: 8,  
+    3: 6,  
+    4: 5,  
+    5: 4,  
+    6: 3,
+    7: 2,
+  };
+
+  // Crear asientos
+  const seatingTable = document.createElement("table");
+  seatingTable.id = "seating-table";
+  for (let i = 1; i <= rows; i++) {
+    const row = document.createElement("tr");
+    for (let j = 1; j <= seatsPerRow; j++) {
+      const seat = document.createElement("td");
+      seat.classList.add("seat");
+      seat.dataset.row = i;
+      seat.dataset.seat = j;
+      row.appendChild(seat);
+    }
+    seatingTable.appendChild(row);
+  }
+  seatingArea.appendChild(seatingTable);
+
+  // Manejar clic en los asientos
+  seatingTable.addEventListener("click", function (event) {
+    if (event.target.classList.contains("seat")) {
+      event.target.classList.toggle("selected");
+      updateSelectedSeatsInfo();
+      updateTotalCost();
+    }
+  });
+
+  
+  // Manejar clic en el botón de compra
+  buyButton.addEventListener("click", function () {
+    const selectedSeats = document.querySelectorAll(".seat.selected");
+    const totalSeats = selectedSeats.length;
+    const totalCost = calculateTotalCost(selectedSeats);
+
+    if (totalSeats > 0) {
+      alert(`Has seleccionado ${totalSeats} asientos. ¡Compra exitosa! Total: $${totalCost}`);
+      // Aquí podrías enviar la información al servidor para procesar la compra.
+    } else {
+      alert("Selecciona al menos un asiento antes de comprar.");
+    }
+  });
+
+  // Función para actualizar la información de los asientos seleccionados
+  function updateSelectedSeatsInfo() {
+    const selectedSeats = document.querySelectorAll(".seat.selected");
+    const selectedSeatsArray = Array.from(selectedSeats).map(seat => {
+      return `[Fila ${seat.dataset.row}, Asiento ${seat.dataset.seat}]`;
+    });
+    selectedSeatsInfo.textContent = `Asientos seleccionados: ${selectedSeatsArray.join(', ')}`;
+  }
+
+
+  // Función para actualizar la información del costo total
+  function updateTotalCost() {
+    const selectedSeats = document.querySelectorAll(".seat.selected");
+    const totalCost = calculateTotalCost(selectedSeats);
+    const totalSeats = selectedSeats.length;
+  
+    // Actualizar el contenido del div con la información seleccionada
+    totalCostInfo.textContent = `Asientos seleccionados: ${totalSeats} | Costo total: $${totalCost}`;
+  }
+
+
+  // Función para calcular el costo total
+  function calculateTotalCost(selectedSeats) {
+    let totalCost = 0;
+    selectedSeats.forEach(seat => {
+      const row = parseInt(seat.dataset.row);
+      totalCost += seatPrice[row];
+    });
+    return totalCost;
+  }
+});

@@ -1,16 +1,22 @@
-body, h1, h2, p, ul, li, a {
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
     margin: 0;
     padding: 0;
     text-decoration: none;
-  }
-  
-  body {
+}
+
+body {
     font-family: 'Roboto';
     line-height: 1.6;
     overflow: auto;
-  }
-  
-  .header {
+}
+
+.header {
     display: flex;
     align-items: center;
     background-color: #ffffff;
@@ -18,31 +24,30 @@ body, h1, h2, p, ul, li, a {
     height: 23vh;
     max-width: 1000px;
     margin: auto;
-  }
-  
-  .header__logo {
+}
+
+.header__logo {
     flex: 1;
     text-align: center;
-  }
-  
-  .logo__image {
+}
+
+.logo__image {
     max-width: 80px;
     height: auto;
-  }
-  
-  .header__nav {
+}
+
+.header__nav {
     flex: 2.2;
-    display: flex; /* Para que los elementos se distribuyan en línea */
+    display: flex;
     text-align: left;
-    justify-content: left; /* Para alinear los elementos al final del contenedor */
-    gap: 20px; /* Espacio entre los elementos */
-  }
-  
-  .nav__link {
+    justify-content: left;
+    gap: 20px;
+}
+
+.nav__link {
     color: #000000;
     text-decoration: none;
-  }
-/* ---navegador--- */
+}
 
 .performance-block {
     background-color: #1E3367;
@@ -50,20 +55,20 @@ body, h1, h2, p, ul, li, a {
     align-items: center;
     min-height: 60vh;
 }
-  
+
 .performance-block__info {
     flex: 0.7;
     text-align: center;
     margin-bottom: 10vh;
-  }
-  
-  .performance-block__title {
+}
+
+.performance-block__title {
     color: #ffffff;
     margin-bottom: 5vh;
     font-size: xxx-large;
-  }
-  
-  .performance-block__button {
+}
+
+.performance-block__button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #ffffff;
@@ -71,91 +76,93 @@ body, h1, h2, p, ul, li, a {
     text-decoration: none;
     border-radius: 8px;
     font-size: x-large;
-  }
-  
-  .performance-block__image {
+}
+
+.performance-block__image {
     flex: 0.7;
     text-align: center;
-  }
-  .performance-block__image img {
-    width: 350px;
-  }
+}
 
-  .performance-block__name{
+.performance-block__image img {
+    width: 350px;
+}
+
+.performance-block__name {
     flex: 1;
-    text-align: left;   
+    text-align: left;
     align-self: start;
     margin-top: 10vh;
-  }
-  .performance-block__name-title{
+}
+
+.performance-block__name-title {
     font-size: xx-large;
     color: white;
     margin-bottom: 5vh;
-  }
-  .performance-block__name-text{
+}
+
+.performance-block__name-text {
     color: white;
     text-align: center;
-  }
-  
-  /* --------------1 section---------------- */
+}
 
-  .title-posters{
+.title-posters {
     display: flex;
     justify-content: center;
     margin: 7vh;
-  }
-  .title-posers_txt{
-    font-size: xx-large;
-  }
+}
 
-  .poster-container {
+.title-posers_txt {
+    font-size: xx-large;
+}
+
+.poster-container {
     display: flex;
     justify-content: space-evenly;
     background-color: white;
     padding: 20px;
     margin: 20px;
-  }
-  
-  .show-poster {
+}
+
+.show-poster {
     text-align: center;
     background-color: #1E3367;
     padding: 20px;
-    width: 300px; 
-  }
-  
-  .show-poster__image {
+    width: 300px;
+}
+
+.show-poster__image {
     margin-bottom: 10px;
-  }
-  
-  .poster__img {
+}
+
+.poster__img {
     max-width: 90%;
     height: auto;
-  }
-  
-  .show-poster__details {
+}
+
+.show-poster__details {
     color: white;
-  }
-  
-  .show-poster__title {
+}
+
+.show-poster__title {
     margin-bottom: 10px;
-  }
-  
-  .show-poster__button {
+}
+
+.show-poster__button {
     padding: 10px 20px;
     background-color: #fff;
     color: #1E3367;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
+}
 
-  .button-frame{
+.button-frame {
     display: flex;
     justify-content: left;
     margin-top: 10vh;
 }
 
-  .button-seeMore{
+.button-seeMore {
     background-color: #1E3367;
     border-radius: 32px;
     display: flex;
@@ -164,49 +171,153 @@ body, h1, h2, p, ul, li, a {
     margin-left: 30vh;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .button-seeMore_txt{
+.button-seeMore_txt {
     color: white;
     font-size: x-large;
+}
 
-  }
-  
-  /* Estilos del pie de página */
-  .footer {
+.footer {
     margin-top: 13vh;
     display: flex;
     align-items: center;
-    background-color:#1E3367;
+    background-color: #1E3367;
     text-align: center;
     width: 100%;
     height: 25vh;
-  }
-  .footer-logo{
+}
+
+.footer {
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: #1E3367;
+    text-align: center;
+    width: 100%;
+    height: 25vh;
+}
+
+.footer__logo {
     flex: 0.7;
     text-align: right;
-  }
+}
 
-  .footer-menu{
+.footer__menu {
     flex: 1;
     text-align: center;
-  }
+}
 
-  .footer-menu a{
+.footer__menu a {
     color: white;
     margin-right: 2vh;
-  }
+}
 
-  .footer-Networks{
+.footer__networks {
     flex: 0.7;
     text-align: left;
-  }
-  
-  .footer-logo img{
-    width: 75px;
-  }
+}
 
-  .footer-Networks img{
+.footer__logo img {
+    width: 75px;
+}
+
+.footer__networks img {
     width: 40px;
     margin-right: 4vh;
-  }
+}
+
+@media screen and (max-width: 1150px) {
+
+
+    .header {
+        margin-top: 5vh;
+        display: flex; 
+        height: auto;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+    .header__logo{
+        margin-left: 5vh;
+    }
+
+    .header__nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .performance-block{
+        display: flex;
+        flex-direction: column;
+    }
+    .performance-block__name{
+        display: none;
+    }
+
+    .main-block h1 {
+        margin-left: 6vh;
+    }
+
+    article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-posters {
+        flex-direction: column;
+        align-items: center;
+        margin: 2vh;
+    }
+
+    .title-posers_txt {
+        font-size: x-large;
+    }
+
+    .poster-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .show-poster{
+        margin-bottom: 7vh;
+    }
+
+    .poster-container img {
+        margin-bottom: 10px;
+    }
+
+    .show-poster {
+        padding: 15px;
+    }
+
+    .show-poster__image {
+        margin-bottom: 10px;
+    }
+
+    .button-frame {
+        width: 70%;
+        height: auto;
+        margin: 5vh;
+    }
+
+    .button-seeMore{
+        margin-left: 0;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+    }
+    .footer__logo{
+        text-align: center;
+    }
+    .footer__menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__networks{
+        display: flex;
+        flex-direction: column;
+    }
+}
