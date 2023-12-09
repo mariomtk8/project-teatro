@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Programacion/Programacion.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <title>Project-Theater</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+          <a href="/html/index.html"><img src="/img/logo.png" alt="Logo del Teatro Example" class="logo__image"></a>
+        </div>
+        <nav class="header__nav">
+            <a href="/html/Programacion.html" class="nav__link">Programación</a>
+            <a href="/html/informacion.html" class="nav__link">Información</a>
+            <a href="/html/OtrasActividades.html" class="nav__link">Otras Actividades</a>
+            <a href="/html/Contacto.html" class="nav__link">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-block">
+            <h1>Programación</h1>
+        </div>
+
+        <section class="poster-container">
+            <!-- Primer poster -->
+            <div class="show-poster">
+              <div class="show-poster__image">
+                <img src="/img/fotos-descripción-obras-teatro/Esperando-Godot/esperando-a-godot.jpg" alt="Póster de la función" class="poster__img">
+              </div>
+              <div class="show-poster__details">
+                <h3 class="show-poster__title">Esperando a Godot</h3>
+                <button class="show-poster__button"><a href="/html/Funciones/Godot.html">Comprar e información</a></button>
+              </div>
+            </div>
+            <!-- Segundo poster -->
+            <div class="show-poster">
+              <div class="show-poster__image">
+                <img src="/img/fotos-descripción-obras-teatro/Fantasma-opera/fantasma-opera.jpg" alt="Póster de la función" class="poster__img">
+              </div>
+              <div class="show-poster__details">
+                <h3 class="show-poster__title">Fantasma de la ópera</h3>
+                <button class="show-poster__button"><a href="/html/Funciones/Fantasma.html">Comprar e información</a></button>
+              </div>
+            </div>
+
+            <!-- Tercer poster -->
+            <div class="show-poster">
+              <div class="show-poster__image">
+                <img src="/img/fotos-descripción-obras-teatro/Galder/Galder.jpeg" alt="Póster de la función" class="poster__img">
+              </div>
+              <div class="show-poster__details">
+                <h3 class="show-poster__title">Esto no es un show</h3>
+                <button class="show-poster__button"><a href="/html/Funciones/Galder.html">Comprar e información</a></button>
+              </div>
+            </div>
+          </section>
+
+          <section class="poster-container">
+            <!-- Cuarto poster -->
+            <div class="show-poster">
+              <div class="show-poster__image">
+                <img src="/img/fotos-descripción-obras-teatro/Hamlet/hamlet.jpg" alt="Póster de la función" class="poster__img">
+              </div>
+              <div class="show-poster__details">
+                <h3 class="show-poster__title">Hamlet</h3>
+                <button class="show-poster__button"><a href="/html/Funciones/Hamelet.html">Comprar e información</a></button>
+              </div>
+            </div>
+
+            <!-- Quinto poster -->
+            <div class="show-poster">
+              <div class="show-poster__image">
+                <img src="/img/fotos-descripción-obras-teatro/Rey-Leon/reyLeon.webp" alt="Póster de la función" class="poster__img">
+              </div>
+              <div class="show-poster__details">
+                <h3 class="show-poster__title">El rey león</h3>
+                <button class="show-poster__button"><a href="/html/Funciones/Leon.html">Comprar e información</a></button>
+              </div>
+            </div>
+
+            <!-- Sexto poster -->
+            <div class="show-poster">
+              <div class="show-poster__image">
+                <img src="/img/fotos-descripción-obras-teatro/romo-julieta/ROMEO-Y-JULIETA.jpeg" alt="Póster de la función" class="poster__img">
+              </div>
+              <div class="show-poster__details">
+                <h3 class="show-poster__title">Romeo y julieta</h3>
+                <button class="show-poster__button"><a href="/html/Funciones/RomeoJulieta.html">Comprar e información</a></button>
+              </div>
+            </div>
+          </section>
+
+          <section class="poster-container">
+            <!-- Septimo poster -->
+            <div class="show-poster">
+              <div class="show-poster__image">
+                <img src="/img/fotos-descripción-obras-teatro/B-vocal/b-vocal_LG.jpg" alt="Póster de la función" class="poster__img">
+              </div>
+              <div class="show-poster__details">
+                <h3 class="show-poster__title">B-vocal</h3>
+                <button class="show-poster__button"><a href="/html/Funciones/BVocal.html">Comprar e información</a></button>
+              </div>
+            </div>
+
+            <!-- Octavo poster -->
+            <div class="show-poster">
+              <div class="show-poster__image">
+                <img src="/img/fotos-descripción-obras-teatro/BodasDeSangre/BodasDeSangre.jpg" alt="Póster de la función" class="poster__img">
+              </div>
+              <div class="show-poster__details">
+                <h3 class="show-poster__title">Bodas de sangre</h3>
+                <button class="show-poster__button"><a href="/html/Funciones/Bodas.html">Comprar e información</a></button>
+              </div>
+            </div>
+          </section>
+          <section class="poster-container" id="postersContainer"></section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__logo">
+          <img src="/img/logo2.png" alt="Logo del Teatro">
+        </div>
+        <div class="footer__menu">
+            <a href="/html/Programacion.html" class="footer__menu-link">Programación</a>
+            <a href="/html/informacion.html" class="footer__menu-link">Información</a>
+            <a href="/html/OtrasActividades.html" class="footer__menu-link">Otras Actividades</a>
+            <a href="/html/Contacto.html" class="footer__menu-link">Contacto</a>
+        </div>
+        <div class="footer__networks">
+          <img src="/img/tweeter.png" alt="">
+          <img src="/img/instagram.png" alt="">
+          <img src="/img/facebook.png" alt="">
+      </div>
+    </footer>
+    <script src="/src/maker.js"></script>
+</body>
+</html>
